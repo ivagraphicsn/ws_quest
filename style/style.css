@@ -48,6 +48,36 @@ a:hover{
 	background-color:#9E0000;
 }
 .king{color:white;font-family:Wsquest Regular;}
+.box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+button{
+  border-radius:30px;
+  margin:3px;
+  background-color:red;
+  color:red;
+  border:none;
+  font-size:30px;
+  padding:0 15px;
+  height:45px;
+  transition: 0.1s;
+}
+button:hover{
+  color:white;
+  background-color:black;
+}      
+button:active {
+  background-color: white;
+  color:black;
+}
+
+.gr:active{
+  background-color:green;
+  color:white;
+  transition: 0.1s;
+}
 
 @media(max-width:1081px){
 	h1{
@@ -55,3 +85,4 @@ a:hover{
 	.cont {width:700px;}
 	body{background-image: url(../img/smart_bg.png);}
 }
+
