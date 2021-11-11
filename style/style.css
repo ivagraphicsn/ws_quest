@@ -78,10 +78,10 @@ button:active {
   transition: 0.1s;
 }
 
-@media(max-width:1081px){
+@media(max-width:1080px){
 	h1{
 	font-size:28px;}
-	.cont {width:700px;}
-	body{background-image: url(../img/smart_bg.png);}
+	.cont {width:600px;}
+	body{background-image: url(../img/smart_bg.png); background-size:120%;}
 }
 
